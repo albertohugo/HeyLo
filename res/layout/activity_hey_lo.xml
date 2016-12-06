@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99CCFF"  >
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/list_selector" >
+        <!-- android:divider="#b5b5b5" -->
+    </ListView>
+
+</LinearLayout>
